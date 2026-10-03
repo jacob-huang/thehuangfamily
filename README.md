@@ -2,8 +2,7 @@
 
 The official website of the Huang family, hosted on [GitHub Pages](https://pages.github.com).
 
-**Live site:** https://jacob-huang.github.io/thehuangfamily/ (temporary, until the custom domain is live)
-**Custom domain:** https://thehuangfamily.org
+**Live site:** https://thehuangfamily.org
 
 ## Structure
 
@@ -34,7 +33,7 @@ Point these at your DNS provider (Cloudflare example values below).
 
 | Host | Type  | Value |
 |------|-------|-------|
-| www  | CNAME | jacob-huang.github.io |
+| www  | CNAME | thehuangfamily.org |
 
 Optional IPv6 AAAA for the apex: `2606:50c0:8000::153` `2606:50c0:8001::153` `2606:50c0:8002::153` `2606:50c0:8003::153`
 
