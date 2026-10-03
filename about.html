@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Our Story — The Huang Family</title>
+  <meta name="description" content="The story of the Huang family." />
+  <link rel="stylesheet" href="/css/style.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏡</text></svg>" />
+</head>
+<body>
+  <header class="nav">
+    <div class="container inner">
+      <a class="brand" href="/">The Huang Family</a>
+      <nav>
+        <ul>
+          <li><a href="/#about">About</a></li>
+          <li><a href="/#family">Family</a></li>
+          <li><a href="/#memories">Memories</a></li>
+          <li><a href="/about.html">Our Story</a></li>
+          <li><a href="/#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container">
+      <h1>Our story</h1>
+      <p>This is where the long-form version of who we are lives. Write it in your own words — the beginnings, the milestones, the values we pass down.</p>
+    </div>
+  </section>
+
+  <section class="block alt">
+    <div class="container">
+      <div class="story">
+        <p><strong>Where we started.</strong> Add a few paragraphs about the beginnings of the family — where, when, and what brought you all together.</p>
+        <p><strong>What we value.</strong> A line or two on the things you hold dear and hope to carry forward.</p>
+        <p><strong>Where we're headed.</strong> Dream a little — the places you'll go, the things you'll still do together.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      Made with <span class="heart">♥</span> by the Huang family &middot; <span id="year"></span>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
